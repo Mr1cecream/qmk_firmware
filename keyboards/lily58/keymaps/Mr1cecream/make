@@ -1,0 +1,3 @@
+#!/bin/sh
+
+qmk compile && sudo qmk flash
