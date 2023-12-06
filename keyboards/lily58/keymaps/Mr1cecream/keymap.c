@@ -242,6 +242,8 @@ bool achordion_eager_mod(uint8_t mod) {
         case MOD_RSFT:
         case MOD_LCTL:
         case MOD_RCTL:
+        case MOD_LALT:
+        case MOD_RALT:
             return true;
         default:
             return false;
